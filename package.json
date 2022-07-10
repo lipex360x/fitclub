@@ -11,11 +11,18 @@
     "gen": "yarn plop --plopfile generators/plopfile.js"
   },
   "dependencies": {
+    "emailjs": "^4.0.0",
+    "framer-motion": "^6.4.3",
+    "number-counter": "^1.0.3",
     "plop": "^3.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-onclickoutside": "^6.12.2",
+    "react-scripts": "^5.0.1",
+    "react-scroll": "^1.8.7",
     "styled-components": "^5.3.5",
-    "styled-media-query": "^2.1.2"
+    "styled-media-query": "^2.1.2",
+    "web-vitals": "^2.1.4"
   },
   "devDependencies": {
     "@types/react": "^18.0.14",
