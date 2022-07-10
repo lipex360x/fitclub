@@ -3,7 +3,7 @@ import media from 'styled-media-query'
 
 export const Wrapper = styled.div`
   ${({ theme }) => css`
-    background: ${theme.color.caloryCard};
+    background: ${theme.color.darkGray};
     border-radius: ${theme.border.radius};
     width: fit-content;
     padding: ${theme.spacing.small} ${theme.spacing.xsmall};

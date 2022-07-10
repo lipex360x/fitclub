@@ -7,9 +7,9 @@ export const Wrapper = styled.div`
   ${({ theme }) => css`
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 3rem;
     flex: 3;
-    padding: 2rem;
+    padding: ${theme.spacing.small};
 
     ${TextSlideStyles.Wrapper} {
       margin-top: 4rem;
@@ -21,12 +21,12 @@ export const Title = styled.div`
   ${({ theme }) => css`
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: ${theme.spacing.small};
     color: ${theme.color.white};
 
     > p {
       text-transform: uppercase;
-      font-size: ${theme.font.size.huge};
+      font-size: calc(${theme.font.size.huge} * 1.5);
       font-weight: ${theme.font.bold};
     }
 
@@ -34,5 +34,13 @@ export const Title = styled.div`
       font-size: ${theme.font.size.large};
       letter-spacing: 0.1rem;
     }
+  `}
+`
+
+export const Cards = styled.div`
+  ${({ theme }) => css`
+    margin-top: ${theme.spacing.xsmall};
+    display: flex;
+    gap: 3rem;
   `}
 `
