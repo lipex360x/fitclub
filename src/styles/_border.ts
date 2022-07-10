@@ -1,3 +1,3 @@
 export default {
-  radius: '0.4rem'
+  radius: '4rem'
 } as const
