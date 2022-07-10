@@ -32,11 +32,15 @@ export const GlobalStyles = createGlobalStyle`
   ${({ theme }) => css`
     html {
       font-size: 62.5%;
-      font-family: ${theme.font.family};
     }
 
     body {
-      background: ${theme.color.mainBg};
+      font-family: ${theme.font.family};
+      font-size: ${theme.font.size.medium};
+
+      ::-webkit-scrollbar {
+        display: none;
+      }
     }
   `}
 `
