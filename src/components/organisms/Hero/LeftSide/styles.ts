@@ -6,13 +6,13 @@ import * as TextSlideStyles from '../../../atoms/TextSlide/styles'
 export const Wrapper = styled.div`
   ${({ theme }) => css`
     display: flex;
-    flex-direction: column;
-    gap: 3rem;
     flex: 3;
+    flex-direction: column;
+    gap: ${theme.spacing.medium};
     padding: ${theme.spacing.small};
 
     ${TextSlideStyles.Wrapper} {
-      margin-top: 4rem;
+      margin-top: ${theme.spacing.xlarge};
     }
   `}
 `
@@ -32,7 +32,7 @@ export const Title = styled.div`
 
     > span {
       font-size: ${theme.font.size.large};
-      letter-spacing: 0.1rem;
+      letter-spacing: 0.2rem;
     }
   `}
 `
@@ -42,5 +42,12 @@ export const Cards = styled.div`
     margin-top: ${theme.spacing.xsmall};
     display: flex;
     gap: 3rem;
+  `}
+`
+
+export const Buttons = styled.div`
+  ${({ theme }) => css`
+    display: flex;
+    gap: ${theme.spacing.xsmall};
   `}
 `

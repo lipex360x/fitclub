@@ -13,6 +13,7 @@ export default {
   darkGray: '#2E2F42',
 
   orange: '#f48915',
+  transparent: 'transparent',
 
   caloryCard: '#656565',
   planCard: 'linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%)',

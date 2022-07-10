@@ -1,3 +1,4 @@
+import Button from '../../../atoms/Button'
 import { TextShape } from '../../../atoms/TextShape'
 import { TextSlide } from '../../../atoms/TextSlide'
 import { HeroCard } from '../../../molecules/HeroCard'
@@ -28,11 +29,17 @@ export const LeftSide = () => {
           up your life to fullest
         </span>
       </S.Title>
+
       <S.Cards>
         {data.map(({ text, value }, index) => (
           <HeroCard key={index} text={text} value={value} />
         ))}
       </S.Cards>
+
+      <S.Buttons>
+        <Button>Get Started</Button>
+        <Button transparent>Learn More</Button>
+      </S.Buttons>
     </S.Wrapper>
   )
 }
