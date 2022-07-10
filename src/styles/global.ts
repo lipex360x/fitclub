@@ -1,6 +1,13 @@
 import { css, createGlobalStyle } from 'styled-components'
 
 export const GlobalStyles = createGlobalStyle`
+
+  @font-face {
+    font-family: 'inter-regular';
+    src: url('/fonts/Inter-Regular.ttf');
+    font-display: swap;
+  }
+
   * {
     margin: 0;
     padding: 0;
@@ -35,7 +42,7 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     body {
-      font-family: ${theme.font.family};
+      font-family: ${theme.font.family.bold};
       font-size: ${theme.font.size.medium};
 
       ::-webkit-scrollbar {

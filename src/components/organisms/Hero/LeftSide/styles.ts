@@ -16,3 +16,23 @@ export const Wrapper = styled.div`
     }
   `}
 `
+
+export const Title = styled.div`
+  ${({ theme }) => css`
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    color: ${theme.color.white};
+
+    > p {
+      text-transform: uppercase;
+      font-size: ${theme.font.size.huge};
+      font-weight: ${theme.font.bold};
+    }
+
+    > span {
+      font-size: ${theme.font.size.large};
+      letter-spacing: 0.1rem;
+    }
+  `}
+`

@@ -1,10 +1,14 @@
 export default {
-  family:
-    "Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
+  family: {
+    regular:
+      "inter-regular, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
+
+    bold: "inter-bold, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif"
+  },
 
   light: 300,
   normal: 400,
-  bold: 600,
+  bold: 800,
 
   size: {
     xsmall: '1.2rem',
