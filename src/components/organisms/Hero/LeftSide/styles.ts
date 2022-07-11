@@ -9,10 +9,10 @@ export const Wrapper = styled.div`
     flex: 3;
     flex-direction: column;
     gap: ${theme.spacing.medium};
-    padding: ${theme.spacing.small};
+    padding: ${theme.spacing.medium};
 
     ${TextSlideStyles.Wrapper} {
-      margin-top: ${theme.spacing.xlarge};
+      margin-top: ${theme.spacing.xxlarge};
     }
   `}
 `
@@ -26,12 +26,12 @@ export const Title = styled.div`
 
     > p {
       text-transform: uppercase;
-      font-size: calc(${theme.font.size.huge} * 1.5);
+      font-size: calc(${theme.font.size.huge} * 1.4);
       font-weight: ${theme.font.bold};
     }
 
     > span {
-      font-size: ${theme.font.size.large};
+      font-size: calc(${theme.font.size.large} * 0.9);
       letter-spacing: 0.2rem;
     }
   `}

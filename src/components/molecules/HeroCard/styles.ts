@@ -6,15 +6,17 @@ export const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
 
-    span {
+    h1 {
       color: ${theme.color.white};
-      font-size: ${theme.font.size.xxlarge};
+      font-size: calc(${theme.font.size.xxlarge} * 1.2);
+      font-weight: ${theme.font.normal};
     }
 
-    p {
+    h2 {
       color: ${theme.color.gray};
-      font-size: ${theme.font.size.large};
+      font-size: ${theme.font.size.medium};
       text-transform: uppercase;
+      font-weight: ${theme.font.normal};
     }
 
     font-size: ${theme.font.size.medium};
