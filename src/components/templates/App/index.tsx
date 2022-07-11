@@ -1,7 +1,7 @@
 import { ThemeProvider } from 'styled-components'
-import { GlobalStyles } from '../../../styles/global'
-import theme from '../../../styles/theme'
-import { Hero } from '../../organisms/Hero'
+import { GlobalStyles } from 'styles/global'
+import theme from 'styles/theme'
+import { Hero } from 'components/organisms/Hero'
 
 import * as S from './styles'
 
