@@ -5,6 +5,7 @@ import { Hero } from 'components/organisms/Hero'
 import { Programs } from 'components/organisms/Programs'
 
 import * as S from './styles'
+import { Reasons } from 'components/organisms/Reasons'
 
 export const App = () => {
   return (
@@ -12,6 +13,7 @@ export const App = () => {
       <S.Wrapper>
         <Hero />
         <Programs />
+        <Reasons />
       </S.Wrapper>
       <GlobalStyles />
     </ThemeProvider>
