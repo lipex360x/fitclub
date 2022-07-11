@@ -1,3 +1,6 @@
 export default {
-  radius: '4rem'
+  radius: {
+    hard: '4rem',
+    soft: '0.5rem'
+  }
 } as const

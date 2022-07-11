@@ -4,7 +4,7 @@ import media from 'styled-media-query'
 export const Wrapper = styled.div`
   ${({ theme }) => css`
     background: ${theme.color.darkGray};
-    border-radius: ${theme.border.radius};
+    border-radius: ${theme.border.radius.hard};
     width: fit-content;
     padding: ${theme.spacing.small} ${theme.spacing.xsmall};
     text-transform: uppercase;
@@ -32,7 +32,7 @@ export const Slider = styled.div`
     width: calc(${theme.spacing.xxlarge} * 1.5);
     height: 80%;
     left: 0.8rem;
-    border-radius: ${theme.border.radius};
+    border-radius: ${theme.border.radius.hard};
     z-index: ${theme.layers.base};
   `}
 `

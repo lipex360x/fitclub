@@ -1,3 +1,4 @@
+import Button from 'components/atoms/Button'
 import * as S from './styles'
 
 export const Navbar = () => (
@@ -7,5 +8,8 @@ export const Navbar = () => (
     <S.ListItem>Why us</S.ListItem>
     <S.ListItem>Plans</S.ListItem>
     <S.ListItem>Testimonials</S.ListItem>
+    <S.ListItem>
+      <Button transparent>Join Now</Button>
+    </S.ListItem>
   </S.Wrapper>
 )

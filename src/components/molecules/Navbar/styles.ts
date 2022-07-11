@@ -5,6 +5,7 @@ export const Wrapper = styled.ul`
   ${({ theme }) => css`
     list-style: none;
     display: flex;
+    align-items: center;
     gap: 2rem;
     color: ${theme.color.white};
   `}

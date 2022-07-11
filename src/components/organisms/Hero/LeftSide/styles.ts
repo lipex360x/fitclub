@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components'
 // import media from 'styled-media-query'
 
-import * as TextSlideStyles from '../../../atoms/TextSlide/styles'
+import * as TextSlideStyles from 'components/molecules/TextSlide/styles'
 
 export const Wrapper = styled.div`
   ${({ theme }) => css`

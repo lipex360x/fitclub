@@ -1,6 +1,6 @@
 import Button from 'components/atoms/Button'
 import { TextShape } from 'components/atoms/TextShape'
-import { TextSlide } from 'components/atoms/TextSlide'
+import { TextSlide } from 'components/molecules/TextSlide'
 import { HeroCard } from 'components/molecules/HeroCard'
 import { Header } from 'components/organisms/Header'
 import * as S from './styles'

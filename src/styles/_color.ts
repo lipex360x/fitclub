@@ -8,9 +8,9 @@ export default {
   white: '#FAFAFA',
   black: '#030517',
 
-  lightGray: '#EAEAEA',
+  lightGray: '#656565',
   gray: '#9c9c9c',
-  darkGray: '#2E2F42',
+  darkGray: '#464D53',
 
   orange: '#f48915',
   transparent: 'transparent',
