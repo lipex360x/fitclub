@@ -1,5 +1,5 @@
-import { Logo } from '../../atoms/Logo'
-import { Navbar } from '../../molecules/Navbar'
+import { Logo } from 'components/atoms/Logo'
+import { Navbar } from 'components/molecules/Navbar'
 import * as S from './styles'
 
 export const Header = () => (

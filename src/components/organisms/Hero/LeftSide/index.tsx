@@ -1,8 +1,8 @@
-import Button from '../../../atoms/Button'
-import { TextShape } from '../../../atoms/TextShape'
-import { TextSlide } from '../../../atoms/TextSlide'
-import { HeroCard } from '../../../molecules/HeroCard'
-import { Header } from '../../Header'
+import Button from 'components/atoms/Button'
+import { TextShape } from 'components/atoms/TextShape'
+import { TextSlide } from 'components/atoms/TextSlide'
+import { HeroCard } from 'components/molecules/HeroCard'
+import { Header } from 'components/organisms/Header'
 import * as S from './styles'
 
 export const LeftSide = () => {
@@ -11,6 +11,7 @@ export const LeftSide = () => {
     { value: 978, text: 'members joined' },
     { value: 50, text: 'fitness programs' }
   ]
+
   return (
     <S.Wrapper>
       <Header />
