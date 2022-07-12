@@ -1,9 +1,14 @@
+import { TextShape } from 'components/atoms/TextShape'
 import * as S from './styles'
 
 export const RightSide = () => {
   return (
     <S.Wrapper>
-      <h1>Hello RightSide</h1>
+      <span>some reasons</span>
+      <div>
+        <TextShape outline>Why </TextShape>
+        <TextShape>chose us?</TextShape>
+      </div>
     </S.Wrapper>
   )
 }
